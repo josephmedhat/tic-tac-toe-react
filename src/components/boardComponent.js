@@ -44,7 +44,7 @@ class Board extends React.Component{
 
     render(){
         let winner =getWinner(this.state.squares);
-        const status = winner ? 'Winner Is '+ winner :   'Next player : ' + this.state.role;
+        const status = winner ? 'Winners Is '+ winner :   'Next player : ' + this.state.role;
 
     return (
       <div className="container">
