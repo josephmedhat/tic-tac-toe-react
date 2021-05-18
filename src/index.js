@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Square from './components/squareComponent';
+import Board from './components/boardComponent'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Board ></Board>,
   document.getElementById('root')
 );
 
